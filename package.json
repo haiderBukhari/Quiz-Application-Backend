@@ -4,7 +4,6 @@
   "description": "",
   "main": "./dist/Server.js",
   "scripts": {
-    "start": "nodemon ./dist/Server/Server.js",
     "build": "tsc --noEmitOnError"
   },
   "keywords": [],
