@@ -18,8 +18,8 @@ declare global {
     }
 }
 
-app.use('/user', UserRoutes)
 app.use('/auth', AuthRoutes)
+app.use('/user', UserRoutes)
 app.use('/quiz', QuizRoutes)
 app.use('/exam', ExamRoutes)
 app.use('/report', ReportRoutes)
